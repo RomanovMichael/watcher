@@ -19,10 +19,9 @@ export default defineConfig({
     },
     port: 443,
     proxy: {
-      '/vkid': {
-        target: 'https://id.vk.com',
+      '/api': {
+        target: 'http://localhost:3001',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/vkid/, ''),
       },
     },
   },

@@ -21,6 +21,7 @@ function base64url(str: Uint8Array) {
     .replace(/\//g, '_')
     .replace(/=+$/, '')
 }
+
 async function generateVerifier(len = 64) {
   const random = new Uint8Array(len)
   crypto.getRandomValues(random)

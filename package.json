@@ -1,0 +1,27 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "Аналитика сообществ ВКонтакте",
+  "scripts": {
+    "dev": "cd frontend && pnpm dev",
+    "build": "cd frontend && pnpm build",
+    "lint": "cd frontend && pnpm lint",
+    "preview": "cd frontend && pnpm preview",
+    
+    "context:update": "cd tools && pnpm run update-context",
+    "context:gen": "cd tools && pnpm run gen:context",
+    "context:smart": "cd tools && pnpm run gen:smart",
+    "context:performance": "cd tools && pnpm run gen:performance",
+    "context:all": "cd tools && pnpm run gen:all",
+
+    "report:generate": "cd tools && pnpm run report",
+    "report:performance": "cd tools && pnpm run performance-report",
+    "watch:context": "cd tools && pnpm run watch",
+    
+    "docs:open": "open docs/context.md",
+    "docs:edit": "code docs/context.md"
+  },
+  "keywords": ["vk", "analytics", "vue", "typescript"],
+  "author": "Mihail",
+  "license": "MIT"
+} 

@@ -1,0 +1,11 @@
+tools/
+.cursor
+context.md
+manual-context.md
+tools/generate-context.ts
+
+# Стратегические документы
+STRATEGIC_ANALYSIS.md
+PROGRESS_REPORT_*.md 
+COMMANDS.md
+docs

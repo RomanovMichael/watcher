@@ -58,8 +58,8 @@ onMounted(async () => {
     sessionStorage.removeItem('vk_oauth_state')
     sessionStorage.removeItem('vk_code_verifier')
 
-    // Перенаправляем на главную страницу
-    router.replace('/')
+    // Перенаправляем на дашборд
+    router.replace('/dashboard')
   } catch (err) {
     console.error('Ошибка авторизации:', err)
     error.value = err instanceof Error ? err.message : 'Неизвестная ошибка'

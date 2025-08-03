@@ -136,7 +136,10 @@ onMounted(async () => {
         <div class="auth-footer">
           <p class="terms">
             Нажимая кнопку входа, вы принимаете
-            <a href="#" class="link">Условия использования</a> и
+            <br />
+            <a href="#" class="link">Условия использования</a>
+            <br />и<br />
+
             <a href="#" class="link">Политику конфиденциальности</a>
           </p>
         </div>
